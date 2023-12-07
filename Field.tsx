@@ -76,7 +76,7 @@ console.log('widget id', getWidgetId('gridCardsRow1', sdk) )
       );
     } else {
       // this will eventually return null 
-      return <Paragraph className = "deleteMe" >nothing goes here!!!</Paragraph>
+      return <Paragraph className = "deleteMe" style = {{'&  .entry-edutir__field-group .deleteMe': {display:"none"}}} >nothing goes here!!!</Paragraph>
     }
   } else {
     // TODO: default field here...
