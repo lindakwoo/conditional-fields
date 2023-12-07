@@ -76,6 +76,7 @@ console.log('widget id', getWidgetId('gridCardsRow1', sdk) )
       );
     } else {
       // this will eventually return null 
+      // fix the css so that it works!!!
       return <Paragraph className = "deleteMe" style = {{'&  .entry-edutir__field-group .deleteMe': {display:"none"}}} >nothing goes here!!!</Paragraph>
     }
   } else {
